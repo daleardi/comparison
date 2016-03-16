@@ -53,7 +53,7 @@ public class DefaultLoyaltyDiscountCalculator : ILoyaltyDiscountCalculator
     return price - (discountForLoyaltyInPercentage * price);
   }
 }
-Hide   Shrink    Copy Code
+
 public interface IAccountDiscountCalculatorFactory
 {
   IAccountDiscountCalculator GetAccountDiscountCalculator(AccountStatus accountStatus);
